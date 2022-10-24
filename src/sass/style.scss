@@ -1,0 +1,20 @@
+@import 'base/mixins';
+@import 'base/variables';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+    background: rgb(236, 236, 236);
+}
+
+
+@import 'blocks/main';
