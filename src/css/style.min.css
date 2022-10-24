@@ -6,12 +6,6 @@
   scroll-behavior: smooth;
 }
 
-.container {
-  width: 768px;
-  margin: 0 auto;
-  background: #ececec;
-}
-
 .courses {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,5 +46,29 @@
 
 .course-item-value.bottom {
   color: #13bd3d;
+}
+
+body {
+  background: #c9c9c9 !important;
+}
+
+.wrapper {
+  max-width: 370px !important;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 10px 4px;
+  background: #f0f0f0 !important;
+  border-radius: 8px !important;
+  padding: 0 5px;
+}
+
+.form-control {
+  max-width: 165px;
+}
+
+#select {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.min.css.map */

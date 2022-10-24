@@ -35,3 +35,25 @@
 .course-item-value.bottom {
     color: rgb(19, 189, 61);
 }
+
+//my changes
+body {
+    background: rgb(201, 201, 201) !important;
+}
+.wrapper {
+    max-width: 370px !important;
+    margin: 0 auto;
+}
+.card {
+    margin: 10px 4px;
+    background: rgb(240, 240, 240) !important;
+    border-radius: 8px !important;
+    padding: 0 5px;
+}
+
+.form-control {
+    max-width: 165px;;
+}
+#select{
+    cursor: pointer;
+}
